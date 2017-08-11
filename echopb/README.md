@@ -11,3 +11,15 @@
 
 2.執行scripts.exe 會產出(更新) swagger.pb.go
 
+
+## 額外說明
+編譯產生的 service.swagger.json 為service.proto的api文件
+
+scripts.exe則是要將該api文件轉成 swagger.pb.go
+
+而swagger.pb.go的作用則為在編譯服務時產出以下連結的對應json文件
+
+https://localhost:10000/swagger.json
+
+
+
